@@ -3,12 +3,8 @@ from tkinter import *
 import sys
 from decimal import *
 
-
-
-if __name__ == '__main__':
-    print('Loading...')
-    firstWin()
-
+from detUtilities import *
+from sysUtilities import *
 
 
 def firstWin():
@@ -208,3 +204,10 @@ def Syst():
     submit = Button(rootb, text='Submit', font=('Comic Sans MS', 12), bg='light grey', command=goCalulate)
     submit.grid(row=0, padx=10, pady=10)
     rootb.mainloop()
+    
+    
+    
+if __name__ == '__main__':
+    print('Loading...')
+    firstWin()
+

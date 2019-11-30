@@ -1,3 +1,5 @@
+from utilities import *
+
 def CalculateDet():
     #get data from determinant program inputs
     global data
