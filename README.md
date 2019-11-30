@@ -6,9 +6,9 @@
     tkinter makes calls to the backend and the backend returns a result for tkinter to display.'''
 
 for v2:
-*make tabbing work
-*fix lables for system of eqns
-*add show steps button
-*final windows
+* make tabbing work
+* fix lables for system of eqns
+* add show steps button
+* final windows
 
 
