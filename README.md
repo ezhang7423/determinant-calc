@@ -6,7 +6,7 @@
 * go to terminal or command prompt
 * pip install det-sys-calc-eziped
 * python3 -m det-sys-calculator OR python -m det-sys-calculator 
-## https://pypi.org/project/det-sys-calc-eziped/0.0.1/
+## https://pypi.org/project/det-sys-calc-eziped/0.0.3/
 
 '''Uses row reduction and tkinter as a basis for the program, packaged into two different windows-determinant and sys of equations.
     tkinter makes calls to the backend and the backend returns a result for tkinter to display.'''
