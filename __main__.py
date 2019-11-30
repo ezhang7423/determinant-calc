@@ -1,11 +1,16 @@
 from tkinter import *
-#for v2:
-#make tabbing work
-#fix lables for system of eqns
-#add show steps button
-# final windows
+
 import sys
 from decimal import *
+
+
+
+if __name__ == '__main__':
+    print('Loading...')
+    firstWin()
+
+
+
 def firstWin():
 
     '''creates the first window which asks the user which program they would like to use'''
@@ -203,13 +208,3 @@ def Syst():
     submit = Button(rootb, text='Submit', font=('Comic Sans MS', 12), bg='light grey', command=goCalulate)
     submit.grid(row=0, padx=10, pady=10)
     rootb.mainloop()
-
-
-
-
-
-
-#Det()
-#Syst()
-
-firstWin()
