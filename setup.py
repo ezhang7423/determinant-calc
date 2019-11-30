@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="det-sys-calc-eziped", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Eddie Zhang",
     author_email="obeyfutzipe666@gmail.com",
     description="Calculate systems of equations and determinants to your heart's content",

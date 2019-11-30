@@ -1,8 +1,12 @@
-from tkinter import *
-
+import os 
 import sys
-from decimal import *
 
+
+scriptpath = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(os.path.abspath(scriptpath))
+
+from tkinter import *
+from decimal import *
 from detUtilities import *
 from sysUtilities import *
 
