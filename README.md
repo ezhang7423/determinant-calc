@@ -2,7 +2,7 @@
 ## calculate systems of equations and determinants to your heart's content with tkinter and eddie
 
 ## installation
-* prerequisites: python 3.6 and pip3 or above
+* prerequisites: python 3.6, pip3, or above. tkinter should be automatically installed with python
 * go to terminal or command prompt
 * pip install det-sys-calc-eziped
 * python3 -m det-sys-calculator OR python -m det-sys-calculator 
